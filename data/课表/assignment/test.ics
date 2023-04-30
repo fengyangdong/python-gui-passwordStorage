@@ -1,0 +1,39 @@
+BEGIN:VCALENDAR
+                VERSION:2.0
+                X-WR-CALNAME:test
+                X-APPLE-CALENDAR-COLOR:#ff9500 
+                X-WR-TIMEZONE:Asia/Shanghai
+                BEGIN:VTIMEZONE
+                TZID:Asia/Shanghai
+                X-LIC-LOCATION:Asia/Shanghai
+                BEGIN:STANDARD
+                TZOFFSETFROM:+0800
+                TZOFFSETTO:+0800
+                TZNAME:CST
+                DTSTART:19700101T000000
+                END:STANDARD
+                END:VTIMEZONE
+                
+BEGIN:VEVENT
+        CREATED:20230322T075157Z
+DTSTAMP:20230322T075157Z
+SUMMARY:吃粑粑
+        DESCRIPTION:玩
+LOCATION:中国
+        TZID:Asia/Shanghai
+SEQUENCE:0
+UID:d6311924-55d9-4b33-8f0f-763ec0ecf518
+
+        DTSTART;TZID=Asia/Shanghai:20000102T000000
+DTEND;TZID=Asia/Shanghai:20000103T000000
+        X-APPLE-TRAVEL-ADVISORY-BEHAVIOR:AUTOMATIC
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:This is an event reminder
+                TRIGGER:-P0DT0H1M0S
+X-WR-ALARMUID:7370ecf8-a780-4d3b-abf0-2e925c48255e
+UID:ccfefa12-9f86-479b-b633-ee633c4e495e
+END:VALARM
+END:VEVENT
+
+END:VCALENDAR

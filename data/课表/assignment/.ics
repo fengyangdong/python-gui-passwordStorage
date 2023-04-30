@@ -1,0 +1,16 @@
+BEGIN:VCALENDAR
+                VERSION:2.0
+                X-WR-CALNAME:
+                X-APPLE-CALENDAR-COLOR:#ff9500 
+                X-WR-TIMEZONE:Asia/Shanghai
+                BEGIN:VTIMEZONE
+                TZID:Asia/Shanghai
+                X-LIC-LOCATION:Asia/Shanghai
+                BEGIN:STANDARD
+                TZOFFSETFROM:+0800
+                TZOFFSETTO:+0800
+                TZNAME:CST
+                DTSTART:19700101T000000
+                END:STANDARD
+                END:VTIMEZONE
+                

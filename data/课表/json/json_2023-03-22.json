@@ -1,0 +1,22 @@
+[
+    {
+        "ClassName": "所有",
+        "StartWeek": 1.0,
+        "EndWeek": 1.0,
+        "WeekStatus": 0.0,
+        "Weekday": 1.0,
+        "ClassTimeId": 1.0,
+        "Classroom": "B1501",
+        "Teacher": "田媛"
+    },
+    {
+        "ClassName": "单独",
+        "StartWeek": 1.0,
+        "EndWeek": 1.0,
+        "WeekStatus": "没用",
+        "Weekday": 2.0,
+        "ClassTimeId": 2.0,
+        "Classroom": "地址",
+        "Teacher": "人物"
+    }
+]
