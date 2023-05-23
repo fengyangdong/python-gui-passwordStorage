@@ -1,3 +1,4 @@
+import os
 import sys
 import time
 from PySide2.QtUiTools import QUiLoader
@@ -7,6 +8,7 @@ import json
 import xlrd
 from datetime import datetime, timedelta
 from uuid import uuid4 as uid
+import shutil
 class FuncMain:
     def __init__(self):
         qfile = QFile("ui/func.ui")
@@ -19,6 +21,7 @@ class FuncMain:
         self.ui.button_excel.clicked.connect(self.open_excel)
         self.ui.button_excel_ics.clicked.connect(self.read_excel)
         self.ui.button_assignment_ics.clicked.connect(self.make_assignment_ics)
+        self.ui.button_save.clicked.connect(self.my_save)
     def open_excel(self):
         # 其中self指向自身，"读取文件夹"为标题名，"./"为打开时候的当前路径
         directory, Ftype = QtWidgets.QFileDialog.getOpenFileName(None,"选取excel","./", "All Files(*)")  # 起始路径
@@ -337,3 +340,13 @@ class FuncMain:
             f.close()
 
         self.ui.label_word.setText(self.ui.label_word.text() + f"ics文件操作完成，文件位置及名称：{fileendname}\n")
+    def my_save(self):
+        self.ui.label_word.setText("")
+        self.ui.label_word.setText("这是我自己的备份方案，这里只会备份linux镜像，备份代码，其他的都不会备份，并且这是我自己的备份方法，可能和你的不匹配\n\n这里只会备份到备份库中\n准备开始，你有3s的准备时间，可以立刻退出")
+        time.sleep(3)
+        self.ui.label_word.setText("开始复制linux")
+        now_day = datetime.date.today()
+        os.makedirs()
+        shutil.copytree(r'F:\OneDrive\娱乐\代码\vm12-linux\centos7_study', rf'E:\备份库\linux\{now_day}~centos7_study')
+        self.ui.label_word.setText(self.ui.label_word.text() + f"-----完成\n存储位置：{now_day}~centos7_study")
+

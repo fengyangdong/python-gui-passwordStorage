@@ -9,12 +9,8 @@ import json
 import xlrd
 import os
 from random import randint
-from datetime import datetime, timedelta
+import datetime
 from uuid import uuid4 as uid
 import socket
-import sys
-from test import FuncMain
-app = QApplication(sys.argv)
-ui = FuncMain()
-ui.ui.show()
-sys.exit(app.exec_())
+
+print(datetime.date.today())
