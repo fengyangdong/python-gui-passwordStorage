@@ -149,20 +149,20 @@ class FuncMain:
 
         # 开始操作，先写入头
         ical_begin_base = f'''BEGIN:VCALENDAR
-        VERSION:2.0
-        X-WR-CALNAME:{self.g_name}
-        X-APPLE-CALENDAR-COLOR:{self.g_color}
-        X-WR-TIMEZONE:Asia/Shanghai
-        BEGIN:VTIMEZONE
-        TZID:Asia/Shanghai
-        X-LIC-LOCATION:Asia/Shanghai
-        BEGIN:STANDARD
-        TZOFFSETFROM:+0800
-        TZOFFSETTO:+0800
-        TZNAME:CST
-        DTSTART:19700101T000000
-        END:STANDARD
-        END:VTIMEZONE
+VERSION:2.0
+X-WR-CALNAME:{self.g_name}
+X-APPLE-CALENDAR-COLOR:{self.g_color}
+X-WR-TIMEZONE:Asia/Shanghai
+BEGIN:VTIMEZONE
+TZID:Asia/Shanghai
+X-LIC-LOCATION:Asia/Shanghai
+BEGIN:STANDARD
+TZOFFSETFROM:+0800
+TZOFFSETTO:+0800
+TZNAME:CST
+DTSTART:19700101T000000
+END:STANDARD
+END:VTIMEZONE
         '''
         try:
             fileendname = "data/课表/ics/%s.ics" % self.g_name
@@ -224,15 +224,15 @@ class FuncMain:
             # 生成此次循环的 event_base
             if self.a_trigger:
                 _alarm_base = f'''BEGIN:VALARM\nACTION:DISPLAY\nDESCRIPTION:This is an event reminder
-        TRIGGER:{self.a_trigger}\nX-WR-ALARMUID:{uid()}\nUID:{uid()}\nEND:VALARM\n'''
+TRIGGER:{self.a_trigger}\nX-WR-ALARMUID:{uid()}\nUID:{uid()}\nEND:VALARM\n'''
             else:
                 _alarm_base = ""
             _ical_base = f'''\nBEGIN:VEVENT
-        CREATED:{utc_now}\nDTSTAMP:{utc_now}\nSUMMARY:{obj["ClassName"]}
-        DESCRIPTION:{teacher}{serial}\nLOCATION:{obj["Classroom"]}
-        TZID:Asia/Shanghai\nSEQUENCE:0\nUID:{uid()}\nRRULE:FREQ=WEEKLY;UNTIL={stop_time_str};INTERVAL={extra_status}
-        DTSTART;TZID=Asia/Shanghai:{final_stime_str}\nDTEND;TZID=Asia/Shanghai:{final_etime_str}
-        X-APPLE-TRAVEL-ADVISORY-BEHAVIOR:AUTOMATIC\n{_alarm_base}END:VEVENT\n'''
+CREATED:{utc_now}\nDTSTAMP:{utc_now}\nSUMMARY:{obj["ClassName"]}
+DESCRIPTION:{teacher}{serial}\nLOCATION:{obj["Classroom"]}
+TZID:Asia/Shanghai\nSEQUENCE:0\nUID:{uid()}\nRRULE:FREQ=WEEKLY;UNTIL={stop_time_str};INTERVAL={extra_status}
+DTSTART;TZID=Asia/Shanghai:{final_stime_str}\nDTEND;TZID=Asia/Shanghai:{final_etime_str}
+X-APPLE-TRAVEL-ADVISORY-BEHAVIOR:AUTOMATIC\n{_alarm_base}END:VEVENT\n'''
 
             # 写入文件
             with open(fileendname, "a", encoding='UTF-8') as f:
@@ -288,20 +288,20 @@ class FuncMain:
                     else:
                         print("输入数字有误！")
         ical_begin_base = f'''BEGIN:VCALENDAR
-                VERSION:2.0
-                X-WR-CALNAME:{self.ui.line_name_2.text()}
-                X-APPLE-CALENDAR-COLOR:#ff9500 
-                X-WR-TIMEZONE:Asia/Shanghai
-                BEGIN:VTIMEZONE
-                TZID:Asia/Shanghai
-                X-LIC-LOCATION:Asia/Shanghai
-                BEGIN:STANDARD
-                TZOFFSETFROM:+0800
-                TZOFFSETTO:+0800
-                TZNAME:CST
-                DTSTART:19700101T000000
-                END:STANDARD
-                END:VTIMEZONE
+VERSION:2.0
+X-WR-CALNAME:{self.ui.line_name_2.text()}
+X-APPLE-CALENDAR-COLOR:#ff9500 
+X-WR-TIMEZONE:Asia/Shanghai
+BEGIN:VTIMEZONE
+TZID:Asia/Shanghai
+X-LIC-LOCATION:Asia/Shanghai
+BEGIN:STANDARD
+TZOFFSETFROM:+0800
+TZOFFSETTO:+0800
+TZNAME:CST
+DTSTART:19700101T000000
+END:STANDARD
+END:VTIMEZONE
                 '''
         try:
             fileendname = "data/课表/assignment/%s.ics" % self.ui.line_name_2.text()
@@ -323,11 +323,11 @@ class FuncMain:
                 _alarm_base = ""
 
         _ical_base = f'''\nBEGIN:VEVENT
-        CREATED:{utc_now}\nDTSTAMP:{utc_now}\nSUMMARY:{self.ui.line_title.text()}
-        DESCRIPTION:{self.ui.line_remarks.text()}\nLOCATION:{self.ui.line_place.text()}
-        TZID:Asia/Shanghai\nSEQUENCE:0\nUID:{uid()}\n
-        DTSTART;TZID=Asia/Shanghai:{start_time}\nDTEND;TZID=Asia/Shanghai:{end_time}
-        X-APPLE-TRAVEL-ADVISORY-BEHAVIOR:AUTOMATIC\n{_alarm_base}END:VEVENT\n'''
+CREATED:{utc_now}\nDTSTAMP:{utc_now}\nSUMMARY:{self.ui.line_title.text()}
+DESCRIPTION:{self.ui.line_remarks.text()}\nLOCATION:{self.ui.line_place.text()}
+TZID:Asia/Shanghai\nSEQUENCE:0\nUID:{uid()}\n
+DTSTART;TZID=Asia/Shanghai:{start_time}\nDTEND;TZID=Asia/Shanghai:{end_time}
+X-APPLE-TRAVEL-ADVISORY-BEHAVIOR:AUTOMATIC\n{_alarm_base}END:VEVENT\n'''
 
 
         with open(fileendname, "a", encoding='UTF-8') as f:

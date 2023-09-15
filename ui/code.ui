@@ -16,6 +16,11 @@
     <height>500000</height>
    </size>
   </property>
+  <property name="font">
+   <font>
+    <italic>false</italic>
+   </font>
+  </property>
   <property name="windowTitle">
    <string>密码操作</string>
   </property>
@@ -28,6 +33,11 @@
      <height>371</height>
     </rect>
    </property>
+   <property name="font">
+    <font>
+     <italic>false</italic>
+    </font>
+   </property>
    <widget class="QWidget" name="layoutWidget">
     <property name="geometry">
      <rect>
@@ -36,6 +46,11 @@
       <width>771</width>
       <height>291</height>
      </rect>
+    </property>
+    <property name="font">
+     <font>
+      <italic>false</italic>
+     </font>
     </property>
     <layout class="QVBoxLayout" name="verticalLayout_2">
      <item>
@@ -46,7 +61,7 @@
           <font>
            <family>得意黑</family>
            <pointsize>22</pointsize>
-           <italic>true</italic>
+           <italic>false</italic>
           </font>
          </property>
          <property name="lineWidth">
@@ -63,7 +78,7 @@
           <font>
            <family>得意黑</family>
            <pointsize>22</pointsize>
-           <italic>true</italic>
+           <italic>false</italic>
           </font>
          </property>
          <property name="text">
@@ -81,7 +96,7 @@
           <font>
            <family>得意黑</family>
            <pointsize>22</pointsize>
-           <italic>true</italic>
+           <italic>false</italic>
           </font>
          </property>
          <property name="text">
@@ -95,7 +110,7 @@
           <font>
            <family>得意黑</family>
            <pointsize>22</pointsize>
-           <italic>true</italic>
+           <italic>false</italic>
           </font>
          </property>
         </widget>
@@ -110,7 +125,7 @@
           <font>
            <family>得意黑</family>
            <pointsize>22</pointsize>
-           <italic>true</italic>
+           <italic>false</italic>
           </font>
          </property>
          <property name="text">
@@ -124,7 +139,7 @@
           <font>
            <family>得意黑</family>
            <pointsize>22</pointsize>
-           <italic>true</italic>
+           <italic>false</italic>
           </font>
          </property>
         </widget>
@@ -139,7 +154,7 @@
           <font>
            <family>得意黑</family>
            <pointsize>22</pointsize>
-           <italic>true</italic>
+           <italic>false</italic>
           </font>
          </property>
          <property name="text">
@@ -153,7 +168,7 @@
           <font>
            <family>得意黑</family>
            <pointsize>22</pointsize>
-           <italic>true</italic>
+           <italic>false</italic>
           </font>
          </property>
         </widget>
@@ -171,6 +186,11 @@
       <height>71</height>
      </rect>
     </property>
+    <property name="font">
+     <font>
+      <italic>false</italic>
+     </font>
+    </property>
     <layout class="QHBoxLayout" name="horizontalLayout_7">
      <item>
       <widget class="QPushButton" name="button_add_2">
@@ -178,7 +198,7 @@
         <font>
          <family>得意黑</family>
          <pointsize>22</pointsize>
-         <italic>true</italic>
+         <italic>false</italic>
         </font>
        </property>
        <property name="text">
@@ -192,7 +212,7 @@
         <font>
          <family>得意黑</family>
          <pointsize>22</pointsize>
-         <italic>true</italic>
+         <italic>false</italic>
         </font>
        </property>
        <property name="text">
@@ -206,7 +226,7 @@
         <font>
          <family>得意黑</family>
          <pointsize>22</pointsize>
-         <italic>true</italic>
+         <italic>false</italic>
         </font>
        </property>
        <property name="text">
@@ -226,6 +246,11 @@
      <height>1001</height>
     </rect>
    </property>
+   <property name="font">
+    <font>
+     <italic>false</italic>
+    </font>
+   </property>
    <layout class="QVBoxLayout" name="verticalLayout">
     <item>
      <widget class="QPushButton" name="button_exit">
@@ -233,7 +258,7 @@
        <font>
         <family>得意黑</family>
         <pointsize>22</pointsize>
-        <italic>true</italic>
+        <italic>false</italic>
        </font>
       </property>
       <property name="text">
@@ -247,7 +272,7 @@
        <font>
         <family>得意黑</family>
         <pointsize>22</pointsize>
-        <italic>true</italic>
+        <italic>false</italic>
        </font>
       </property>
       <property name="text">
@@ -261,7 +286,7 @@
        <font>
         <family>得意黑</family>
         <pointsize>22</pointsize>
-        <italic>true</italic>
+        <italic>false</italic>
        </font>
       </property>
       <property name="text">
@@ -275,7 +300,7 @@
        <font>
         <family>得意黑</family>
         <pointsize>22</pointsize>
-        <italic>true</italic>
+        <italic>false</italic>
        </font>
       </property>
       <property name="text">
@@ -289,7 +314,7 @@
        <font>
         <family>得意黑</family>
         <pointsize>22</pointsize>
-        <italic>true</italic>
+        <italic>false</italic>
        </font>
       </property>
       <property name="text">
@@ -307,6 +332,11 @@
      <width>611</width>
      <height>451</height>
     </rect>
+   </property>
+   <property name="font">
+    <font>
+     <italic>false</italic>
+    </font>
    </property>
    <property name="widgetResizable">
     <bool>true</bool>
@@ -339,7 +369,7 @@
       <font>
        <family>得意黑</family>
        <pointsize>22</pointsize>
-       <italic>true</italic>
+       <italic>false</italic>
       </font>
      </property>
      <property name="text">
@@ -366,6 +396,11 @@
      <height>161</height>
     </rect>
    </property>
+   <property name="font">
+    <font>
+     <italic>false</italic>
+    </font>
+   </property>
    <widget class="QWidget" name="layoutWidget">
     <property name="geometry">
      <rect>
@@ -375,6 +410,11 @@
       <height>56</height>
      </rect>
     </property>
+    <property name="font">
+     <font>
+      <italic>false</italic>
+     </font>
+    </property>
     <layout class="QHBoxLayout" name="horizontalLayout_5">
      <item>
       <widget class="QLabel" name="label_del">
@@ -382,7 +422,7 @@
         <font>
          <family>得意黑</family>
          <pointsize>22</pointsize>
-         <italic>true</italic>
+         <italic>false</italic>
         </font>
        </property>
        <property name="lineWidth">
@@ -408,7 +448,7 @@
         <font>
          <family>得意黑</family>
          <pointsize>22</pointsize>
-         <italic>true</italic>
+         <italic>false</italic>
         </font>
        </property>
       </widget>
@@ -424,6 +464,11 @@
       <height>71</height>
      </rect>
     </property>
+    <property name="font">
+     <font>
+      <italic>false</italic>
+     </font>
+    </property>
     <layout class="QHBoxLayout" name="horizontalLayout_6">
      <item>
       <widget class="QPushButton" name="button_end_search">
@@ -431,7 +476,7 @@
         <font>
          <family>得意黑</family>
          <pointsize>22</pointsize>
-         <italic>true</italic>
+         <italic>false</italic>
         </font>
        </property>
        <property name="text">
@@ -445,7 +490,7 @@
         <font>
          <family>得意黑</family>
          <pointsize>22</pointsize>
-         <italic>true</italic>
+         <italic>false</italic>
         </font>
        </property>
        <property name="text">
@@ -459,7 +504,7 @@
         <font>
          <family>得意黑</family>
          <pointsize>22</pointsize>
-         <italic>true</italic>
+         <italic>false</italic>
         </font>
        </property>
        <property name="text">
@@ -473,7 +518,7 @@
         <font>
          <family>得意黑</family>
          <pointsize>22</pointsize>
-         <italic>true</italic>
+         <italic>false</italic>
         </font>
        </property>
        <property name="text">
@@ -493,7 +538,7 @@
         <font>
          <family>得意黑</family>
          <pointsize>20</pointsize>
-         <italic>true</italic>
+         <italic>false</italic>
         </font>
        </property>
       </widget>
@@ -504,7 +549,7 @@
         <font>
          <family>得意黑</family>
          <pointsize>22</pointsize>
-         <italic>true</italic>
+         <italic>false</italic>
         </font>
        </property>
        <property name="text">

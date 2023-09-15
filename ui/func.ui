@@ -24,9 +24,9 @@
    </property>
    <property name="font">
     <font>
-     <family>得意黑</family>
-     <pointsize>22</pointsize>
-     <italic>true</italic>
+     <family>Agency FB</family>
+     <pointsize>20</pointsize>
+     <italic>false</italic>
     </font>
    </property>
    <property name="layoutDirection">
@@ -50,9 +50,9 @@
    </property>
    <property name="font">
     <font>
-     <family>得意黑</family>
-     <pointsize>22</pointsize>
-     <italic>true</italic>
+     <family>Agency FB</family>
+     <pointsize>20</pointsize>
+     <italic>false</italic>
     </font>
    </property>
    <property name="text">
@@ -68,6 +68,13 @@
      <height>421</height>
     </rect>
    </property>
+   <property name="font">
+    <font>
+     <family>Agency FB</family>
+     <pointsize>20</pointsize>
+     <italic>false</italic>
+    </font>
+   </property>
    <layout class="QVBoxLayout" name="verticalLayout">
     <item>
      <layout class="QHBoxLayout" name="horizontalLayout_2">
@@ -81,9 +88,9 @@
         </property>
         <property name="font">
          <font>
-          <family>得意黑</family>
-          <pointsize>22</pointsize>
-          <italic>true</italic>
+          <family>Agency FB</family>
+          <pointsize>20</pointsize>
+          <italic>false</italic>
          </font>
         </property>
         <property name="text">
@@ -101,9 +108,9 @@
         </property>
         <property name="font">
          <font>
-          <family>得意黑</family>
-          <pointsize>22</pointsize>
-          <italic>true</italic>
+          <family>Agency FB</family>
+          <pointsize>20</pointsize>
+          <italic>false</italic>
          </font>
         </property>
         <property name="text">
@@ -115,9 +122,9 @@
        <widget class="QLabel" name="label_date">
         <property name="font">
          <font>
-          <family>得意黑</family>
-          <pointsize>16</pointsize>
-          <italic>true</italic>
+          <family>Agency FB</family>
+          <pointsize>20</pointsize>
+          <italic>false</italic>
          </font>
         </property>
         <property name="text">
@@ -135,9 +142,9 @@
         </property>
         <property name="font">
          <font>
-          <family>得意黑</family>
-          <pointsize>22</pointsize>
-          <italic>true</italic>
+          <family>Agency FB</family>
+          <pointsize>20</pointsize>
+          <italic>false</italic>
          </font>
         </property>
         <property name="text">
@@ -159,9 +166,9 @@
         </property>
         <property name="font">
          <font>
-          <family>得意黑</family>
-          <pointsize>22</pointsize>
-          <italic>true</italic>
+          <family>Agency FB</family>
+          <pointsize>20</pointsize>
+          <italic>false</italic>
          </font>
         </property>
         <property name="text">
@@ -185,9 +192,9 @@
         </property>
         <property name="font">
          <font>
-          <family>得意黑</family>
-          <pointsize>22</pointsize>
-          <italic>true</italic>
+          <family>Agency FB</family>
+          <pointsize>20</pointsize>
+          <italic>false</italic>
          </font>
         </property>
         <property name="dateTime">
@@ -212,9 +219,9 @@
         </property>
         <property name="font">
          <font>
-          <family>得意黑</family>
-          <pointsize>22</pointsize>
-          <italic>true</italic>
+          <family>Agency FB</family>
+          <pointsize>20</pointsize>
+          <italic>false</italic>
          </font>
         </property>
         <property name="text">
@@ -232,9 +239,9 @@
         </property>
         <property name="font">
          <font>
-          <family>得意黑</family>
-          <pointsize>22</pointsize>
-          <italic>true</italic>
+          <family>Agency FB</family>
+          <pointsize>20</pointsize>
+          <italic>false</italic>
          </font>
         </property>
        </widget>
@@ -249,9 +256,9 @@
         </property>
         <property name="font">
          <font>
-          <family>得意黑</family>
-          <pointsize>22</pointsize>
-          <italic>true</italic>
+          <family>Agency FB</family>
+          <pointsize>20</pointsize>
+          <italic>false</italic>
          </font>
         </property>
         <property name="text">
@@ -269,9 +276,9 @@
         </property>
         <property name="font">
          <font>
-          <family>得意黑</family>
-          <pointsize>22</pointsize>
-          <italic>true</italic>
+          <family>Agency FB</family>
+          <pointsize>20</pointsize>
+          <italic>false</italic>
          </font>
         </property>
        </widget>
@@ -284,9 +291,9 @@
        <widget class="QLabel" name="label_2">
         <property name="font">
          <font>
-          <family>得意黑</family>
-          <pointsize>22</pointsize>
-          <italic>true</italic>
+          <family>Agency FB</family>
+          <pointsize>20</pointsize>
+          <italic>false</italic>
          </font>
         </property>
         <property name="text">
@@ -304,9 +311,9 @@
         </property>
         <property name="font">
          <font>
-          <family>得意黑</family>
-          <pointsize>22</pointsize>
-          <italic>true</italic>
+          <family>Agency FB</family>
+          <pointsize>20</pointsize>
+          <italic>false</italic>
          </font>
         </property>
         <property name="text">
@@ -328,9 +335,9 @@
         </property>
         <property name="font">
          <font>
-          <family>得意黑</family>
-          <pointsize>22</pointsize>
-          <italic>true</italic>
+          <family>Agency FB</family>
+          <pointsize>20</pointsize>
+          <italic>false</italic>
          </font>
         </property>
         <property name="text">
@@ -342,9 +349,9 @@
        <widget class="QDateTimeEdit" name="data_time">
         <property name="font">
          <font>
-          <family>得意黑</family>
-          <pointsize>22</pointsize>
-          <italic>true</italic>
+          <family>Agency FB</family>
+          <pointsize>20</pointsize>
+          <italic>false</italic>
          </font>
         </property>
        </widget>
@@ -359,9 +366,9 @@
         </property>
         <property name="font">
          <font>
-          <family>得意黑</family>
-          <pointsize>22</pointsize>
-          <italic>true</italic>
+          <family>Agency FB</family>
+          <pointsize>20</pointsize>
+          <italic>false</italic>
          </font>
         </property>
         <property name="text">
@@ -373,9 +380,9 @@
        <widget class="QDateTimeEdit" name="data_time_2">
         <property name="font">
          <font>
-          <family>得意黑</family>
-          <pointsize>22</pointsize>
-          <italic>true</italic>
+          <family>Agency FB</family>
+          <pointsize>20</pointsize>
+          <italic>false</italic>
          </font>
         </property>
        </widget>
@@ -390,9 +397,9 @@
         </property>
         <property name="font">
          <font>
-          <family>得意黑</family>
-          <pointsize>22</pointsize>
-          <italic>true</italic>
+          <family>Agency FB</family>
+          <pointsize>20</pointsize>
+          <italic>false</italic>
          </font>
         </property>
         <property name="text">
@@ -410,9 +417,9 @@
         </property>
         <property name="font">
          <font>
-          <family>得意黑</family>
-          <pointsize>22</pointsize>
-          <italic>true</italic>
+          <family>Agency FB</family>
+          <pointsize>20</pointsize>
+          <italic>false</italic>
          </font>
         </property>
        </widget>
@@ -427,9 +434,9 @@
         </property>
         <property name="font">
          <font>
-          <family>得意黑</family>
-          <pointsize>22</pointsize>
-          <italic>true</italic>
+          <family>Agency FB</family>
+          <pointsize>20</pointsize>
+          <italic>false</italic>
          </font>
         </property>
         <property name="text">
@@ -447,9 +454,9 @@
         </property>
         <property name="font">
          <font>
-          <family>得意黑</family>
-          <pointsize>22</pointsize>
-          <italic>true</italic>
+          <family>Agency FB</family>
+          <pointsize>20</pointsize>
+          <italic>false</italic>
          </font>
         </property>
        </widget>
@@ -471,9 +478,9 @@
         </property>
         <property name="font">
          <font>
-          <family>得意黑</family>
-          <pointsize>22</pointsize>
-          <italic>true</italic>
+          <family>Agency FB</family>
+          <pointsize>20</pointsize>
+          <italic>false</italic>
          </font>
         </property>
         <property name="text">
@@ -491,9 +498,9 @@
         </property>
         <property name="font">
          <font>
-          <family>得意黑</family>
-          <pointsize>22</pointsize>
-          <italic>true</italic>
+          <family>Agency FB</family>
+          <pointsize>20</pointsize>
+          <italic>false</italic>
          </font>
         </property>
        </widget>
@@ -508,9 +515,9 @@
         </property>
         <property name="font">
          <font>
-          <family>得意黑</family>
-          <pointsize>22</pointsize>
-          <italic>true</italic>
+          <family>Agency FB</family>
+          <pointsize>20</pointsize>
+          <italic>false</italic>
          </font>
         </property>
         <property name="text">
@@ -528,9 +535,9 @@
         </property>
         <property name="font">
          <font>
-          <family>得意黑</family>
-          <pointsize>22</pointsize>
-          <italic>true</italic>
+          <family>Agency FB</family>
+          <pointsize>20</pointsize>
+          <italic>false</italic>
          </font>
         </property>
        </widget>
@@ -545,9 +552,9 @@
         </property>
         <property name="font">
          <font>
-          <family>得意黑</family>
-          <pointsize>22</pointsize>
-          <italic>true</italic>
+          <family>Agency FB</family>
+          <pointsize>20</pointsize>
+          <italic>false</italic>
          </font>
         </property>
         <property name="text">
@@ -565,9 +572,9 @@
         </property>
         <property name="font">
          <font>
-          <family>得意黑</family>
-          <pointsize>22</pointsize>
-          <italic>true</italic>
+          <family>Agency FB</family>
+          <pointsize>20</pointsize>
+          <italic>false</italic>
          </font>
         </property>
        </widget>
@@ -587,9 +594,9 @@
    </property>
    <property name="font">
     <font>
-     <family>得意黑</family>
-     <pointsize>22</pointsize>
-     <italic>true</italic>
+     <family>Agency FB</family>
+     <pointsize>20</pointsize>
+     <italic>false</italic>
     </font>
    </property>
    <property name="text">
@@ -613,9 +620,9 @@
    </property>
    <property name="font">
     <font>
-     <family>得意黑</family>
-     <pointsize>22</pointsize>
-     <italic>true</italic>
+     <family>Agency FB</family>
+     <pointsize>20</pointsize>
+     <italic>false</italic>
     </font>
    </property>
    <property name="text">
